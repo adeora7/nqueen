@@ -1,4 +1,4 @@
-var nQueen = 8;
+var nQueen = 6;
 var queens = new Array();
 var board = new Array();
 var allStates = new Array();
@@ -77,7 +77,7 @@ function animateQueens(){
 	setTimeout(function(){
 		allStates.shift();
 		animateQueens();	
-	}, 2000);
+	}, 1000);
 }
 
 //utitlity functions end
